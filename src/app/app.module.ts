@@ -8,6 +8,7 @@ import { TopMenuComponent } from './top-menu/top-menu.component';
 import { AboutComponent } from './about/about.component';
 import { HowComponent } from './how/how.component';
 import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ContactComponent } from './contact/contact.component';
     TopMenuComponent,
     AboutComponent,
     HowComponent,
-    ContactComponent
+    ContactComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
